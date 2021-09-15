@@ -1,5 +1,4 @@
 .my-app-container{
-    background-color: rgb(119, 166, 219);
     height: 100vh;
     width: 100vw;
     padding:150px 0;
@@ -9,7 +8,6 @@
 .my-container-wrap{
     height:500px;
     width: 1000px;
-    border:3px solid red;
 }
 
 .my-heigth-100{
@@ -23,6 +21,7 @@
 
 .my-container-img{
     padding:0;
+    height: 100%;
 }
 
 .my-container-img img{

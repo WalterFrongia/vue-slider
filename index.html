@@ -25,15 +25,15 @@
         <div class="container my-container-wrap">
 
             <div class="row my-heigth-100">
-                <div class="col-1 d-flex align-items-center border border-primary">
+                <div class="col-1 d-flex align-items-center">
                     <i class="fas fa-caret-left my-arrows-icons" @click="previousImage()"></i>
                 </div>
 
-                <div class="col-10 border border-primary my-container-img">
+                <div class="col-10 border my-container-img">
                     <img :src="images[imageIndex].source" alt="">
                 </div>
 
-                <div class="col-1 d-flex align-items-center justify-content-end border border-primary">
+                <div class="col-1 d-flex align-items-center justify-content-end">
                     <i class="fas fa-caret-right my-arrows-icons" @click="nextImage()"></i>
                 </div>
             </div>
