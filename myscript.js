@@ -25,11 +25,19 @@ var app = new Vue(
         previusImage: function(){   //questa funzione permette di scorrere l'array di uno aumentando di uno l'indice
             this.imageIndex--;      //
             console.log(this.imageIndex);
+
+            if(this.imageIndex < 0){
+                this.imageIndex = this.images.length - 1;
+            }
         },
 
         nextImage: function(){     //questa funzione permette di scorrere l'array di uno sottraendo di uno l'indice     
             this.imageIndex++;
             console.log(this.imageIndex);
+
+            if(this.imageIndex >= this.images.length){
+                this.imageIndex = 0;
+            }
         },
 
     }

@@ -21,7 +21,11 @@
     color:rgb(77, 77, 77)
 }
 
+.my-container-img{
+    padding:0;
+}
+
 .my-container-img img{
     width:100%;
-    height: 100%;;
+    height: 100%;
 }
