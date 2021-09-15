@@ -1,6 +1,12 @@
-var app = new Vue({
+var app = new Vue(
+{
     el: '#app',
     data: {
-      message: 'Hello Vue!'
-    }
-  })
+        images:[
+            {
+                source:"https://mole24.it/wp-content/uploads/2019/11/space_adventure_torino.jpg",
+                alt:"",
+            }
+      ],
+    },
+});
