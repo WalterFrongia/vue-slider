@@ -22,7 +22,7 @@ var app = new Vue(
     methods: {
         
         //FUNZIONE PER SCORRERE LE IMG SIA QUELLA PRIMA CHE QUELLA DOPO, IMAGEINDEX VA MOTIFICATO ANCHE SU HTML PER DARE UN INDICE ALL'IMG.
-        previusImage: function(){   //questa funzione permette di scorrere l'array di uno aumentando di uno l'indice
+        previousImage: function(){   //questa funzione permette di scorrere l'array di uno aumentando di uno l'indice
             this.imageIndex--;      //
             console.log(this.imageIndex);
 
